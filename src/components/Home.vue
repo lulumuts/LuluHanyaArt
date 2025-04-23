@@ -7,7 +7,7 @@ const items = ref([
   {title: 'Glower', image: 'Glower.jpg', description: 'Acrylic on Stretched Canvas, 30" x 40"'},
   {title: 'Beam', image: 'Beam.jpeg', description: 'Acrylic on Stretched Canvas, 18" x 24"'},
   {title: 'Cowrie', image: 'Cowrie.jpeg', description: 'Acrylic on Stretched Canvas, 30" x 40"'},
-  {title: 'Goading Glare', image: 'GoadingGlare.jpeg', description: 'Acrylic on Canvas Panel, 30" x 40"'},
+  {title: 'Glaring Dare', image: 'GoadingGlare.jpeg', description: 'Acrylic on Canvas Panel, 30" x 40"'},
   {title: 'Glow', image: 'Glow.png', description: 'Acrylic on Stretched Canvas, 18" x 24"'},
 ])
 const getImagePath = (image) => {
@@ -88,7 +88,7 @@ span {
   color: #b4b1b1;
 }
 .image-container img{
-  width: 475px;
+  width: 470px;
   position: absolute;
   left: 0;
   top: -75px;

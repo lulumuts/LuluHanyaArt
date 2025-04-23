@@ -4,6 +4,7 @@ import Home from '../components/Home.vue'
 
 <template>
   <main>
+    <img src="@/assets/images/favicon.png"/>
     <h1>Lulu Hanya Art</h1>
     <div class="marquee">
       <p>Painter. Designer. Coder</p>
@@ -16,8 +17,8 @@ import Home from '../components/Home.vue'
 h1, p{
   color: #a09d9d;
   position: absolute; /* Forces it to the top */
-  top: 60px;
-  font-size: 24px;
+  top: 80px;
+  font-size: 20px;
   width: 100%;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -42,6 +43,12 @@ p{
 .marquee p {
   display: inline-block;
   animation: marquee 30s linear infinite; /* Adjust duration as needed */
+}
+img {
+  position: absolute;
+  width: 75px;
+  /* margin-left: 20px; */
+  top: 10px;
 }
 
 @keyframes marquee {
