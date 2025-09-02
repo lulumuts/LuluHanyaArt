@@ -56,6 +56,13 @@
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
+  overflow-x: hidden;
+}
+
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw;
+  width: 100%;
 }
 
 body {
@@ -83,4 +90,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+  max-width: 100vw;
+  width: 100%;
 }
